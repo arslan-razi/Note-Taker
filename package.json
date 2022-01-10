@@ -1,14 +1,31 @@
 {
   "name": "note-taker",
   "version": "1.0.0",
-  "description": "",
+  "description": "This application allows the user to enter notes and as they save, they appear in the sidebar on the left. Notes can be deleted by clicking the trash can next to the corresponding note.",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "author": "",
+  "author": "Arslan Razi",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.4"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslan-razi/Note-Taker.git"
+  },
+  "keywords": [
+    "note",
+    "taker"
+  ],
+  "bugs": {
+    "url": "https://github.com/arslan-razi/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/arslan-razi/Note-Taker#readme"
 }
